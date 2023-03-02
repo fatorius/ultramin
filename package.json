@@ -1,0 +1,28 @@
+{
+  "name": "ultramin",
+  "version": "0.0.1",
+  "description": "Um pacote de minificação de páginas web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatorius/ultramin.git"
+  },
+  "keywords": [
+    "minifier",
+    "html",
+    "web",
+    "webdevelopment",
+    "javascript",
+    "css",
+    "minify"
+  ],
+  "author": "HugoSouza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fatorius/ultramin/issues"
+  },
+  "homepage": "https://github.com/fatorius/ultramin#readme"
+}
