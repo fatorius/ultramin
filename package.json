@@ -4,12 +4,13 @@
   "description": "Um pacote de minificação de páginas web",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ultramin": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fatorius/ultramin.git"
   },
+  "type": "module",
   "keywords": [
     "minifier",
     "html",
@@ -24,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/fatorius/ultramin/issues"
   },
-  "homepage": "https://github.com/fatorius/ultramin#readme"
+  "homepage": "https://github.com/fatorius/ultramin#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "dom-parser": "^0.1.6"
+  }
 }
